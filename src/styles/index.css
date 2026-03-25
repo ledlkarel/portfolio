@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;700&display=swap');
+
+:root {
+  --background: #0b101f;
+  --text: #e8ecf5;
+  --muted: #9da7bd;
+  --border: #1e2740;
+  --card: #0f1527;
+  --accent: #00d084;
+  --glow: 0 18px 45px rgba(0, 0, 0, 0.35);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: var(--text);
+  font-family: 'Inter', 'IBM Plex Mono', system-ui, -apple-system, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+}
