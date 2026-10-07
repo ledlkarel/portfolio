@@ -22,7 +22,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="hero-card">
-        <p className="mono-label">Currently working at</p>
+        <p className="mono-label">Last employment</p>
         <h3>Connexa It</h3>
         <ul className="list">
           <li>Developing a CRM system in Low Code platform Tabidoo</li>
